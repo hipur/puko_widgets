@@ -1,0 +1,40 @@
+
+<!--Tracking result will float on this element.-->
+<a id="YQElem1">RI111111111CN</a>
+<span id="YQElem2">RI222222222CN</span>
+<div id="YQElem9">RI999999999CN</div>
+
+<!--Script code can be put in the bottom of the page, wait until the page is loaded then execute.-->
+<script type="text/javascript" src="//www.17track.net/externalcall.js"></script>
+<script type="text/javascript">
+YQV5.trackSingleF1({
+    //Required, Specify the element ID of the floating position.
+    YQ_ElementId:"YQElem1",
+    //Optional, specify the tracking result width, min width 260px, default is 470px.
+    YQ_Width:470,
+    //Optional, specify tracking result height, max height 800px, default is 560px.
+    YQ_Height:560,
+    //Optional, select carrier, default to auto identify.
+    YQ_Fc:"0",
+    //Optional, specify UI language, default language is automatically detected based on the browser settings.
+    YQ_Lang:"en",
+    //Required, specify the number needed to be tracked.
+    YQ_Num:"RI111111111CN"
+});
+YQV5.trackSingleF1({
+    YQ_ElementId:"YQElem2",
+    YQ_Width:470,
+    YQ_Height:560,
+    YQ_Fc:"0",
+    YQ_Lang:"en",
+    YQ_Num:"RI222222222CN"
+});
+YQV5.trackSingleF1({
+    YQ_ElementId:"YQElem9",
+    YQ_Width:470,
+    YQ_Height:560,
+    YQ_Fc:"0",
+    YQ_Lang:"en",
+    YQ_Num:"RI999999999CN"
+});
+</script>
